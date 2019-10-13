@@ -1,0 +1,71 @@
+
+
+* {
+    
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+.container{margin: auto;width: 1200px;}
+
+
+
+/* Start Header */
+
+
+.head{color:dodgerblue;padding: 20px;overflow: hidden;}
+
+.head .page h1{float: left;width: 30%}
+
+
+.head .nav ul{float: left;width: 60%;margin-left: 120px}
+
+.head .nav ul li{display:inline-block;padding: 10px 15px;font-size: 22px;font-weight: 550;margin-top: 3px;margin-right: 40px }
+
+.head .nav ul .link1 {border-bottom: 2px solid dodgerblue;}
+
+.head .nav ul li:hover{border-bottom: 2px solid dodgerblue }
+
+
+/* End Header */         
+
+
+
+
+
+/* Start Slider */
+
+
+.slider{background-image:url(img/girl4.jpg);height: 720px;background-size: cover;position: relative;}
+
+.slider .overlay{background-color: rgba(30, 144, 255, 0.6);top: 0; right: 0;bottom: 0; left: 0;height: 100%;width: 100%;position: absolute}
+
+
+.slider .overlay h2{color: white;text-align: center;margin-top: 320px;font-size: 100px}
+
+
+/* End Slider */
+
+
+
+
+/* Start photo */
+
+
+
+.photo{margin-top: 100px;column-count: 3}
+
+.photo .images img{width: 170px;margin-left: 130px;border-radius: 80%}
+
+
+.photo .images p{color:black;font-weight: 500;font-size:20px;margin-left: 180px}
+
+
+
+/* End photo */
